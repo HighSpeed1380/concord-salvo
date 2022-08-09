@@ -1,0 +1,6 @@
+docker-compose.yml
+.mongo
+target
+files
+data
+.env

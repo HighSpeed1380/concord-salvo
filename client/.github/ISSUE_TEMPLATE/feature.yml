@@ -1,0 +1,24 @@
+name: Feature request
+description: Make a feature request
+title: "feature request: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before you start, a lot of bigger features may be better suited as [API issues](https://github.com/revoltchat/delta/issues/new) or [centralised discussions](https://github.com/revoltchat/revolt/discussions/new).
+  - type: textarea
+    id: your-idea
+    attributes:
+      label: What do you want to see?
+      description: Describe your idea in as much detail as possible - if applicable, screenshots/mockups are really useful.
+    validations:
+      required: true
+  - type: checkboxes
+    id: pwa
+    attributes:
+      label: PWA
+      description: Is this feature request specific to the PWA (i.e. "installing" the web app on iOS or Android)? (If not, leave this unchecked.)
+      options:
+        - label: Yes, this feature request is specific to the PWA.
+          required: false

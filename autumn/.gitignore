@@ -1,0 +1,8 @@
+docker-compose.yml
+/target
+.mongo
+files
+/data
+/adata
+.env
+tmp
